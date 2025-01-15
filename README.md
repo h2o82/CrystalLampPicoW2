@@ -10,7 +10,7 @@ So first of all my thoughts were, I want colours and I want it to be accessible 
 I ordered some 60 LED per Meter ARGB WS2812B led's from Aliexpress (£6)
 Bought some transparent PETG from Amazon.
 
-**Wiring:**
+## **Wiring:**
 
 Its very important that you have a supply that will happily run the 36 LED's and extremely important that you power the LED's off that supply.
 Also on the note of importance, Its probably not a good Idea to run the LED's on white at full brightness, this will use approx 2.16 A (36 LED's x 60 mA = 2.16A)
@@ -20,23 +20,27 @@ And lastly regardless of Power supply DO NOT power the LED's off your Pico, it m
 My wiring is as follows:
 
 
-             ---------- +5v LEDS
+            [---------- +5v LEDS
 5v + -------[
-             ---------- +5v PICO W2 VSYS
-			
-            ----------- Gnd LEDs			
-GND -------[
-            ----------- GND PICO W2
-			
-PICO GPIO 0 ----------- Data LEDs
+            [---------- +5v PICO W2 VSYS
 
 
-**Code:**
+
+            [----------- Gnd LEDs			
+GND --------[
+            [----------- GND PICO W2
+
+     
+			
+PICO GPIO 0 [----------- Data LEDs
+
+
+## **Code:**
 
 Update the main.py with your wifi details, and start it up. Also, depending on your country you might want to update the NTP address.
 When connected an IP will be listed in the shell for you to use a web browser to interact with the Crystal Lamp.
 
-**Functions:**
+## **Functions:**
 
 Off = turn the LED's off
 Red = Red Crystals
