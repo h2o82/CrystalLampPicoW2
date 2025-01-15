@@ -19,22 +19,28 @@ And lastly regardless of Power supply DO NOT power the LED's off your Pico, it m
 
 My wiring is as follows:
 
-+5v wiring:
+**+5v wiring:**
+Wire the 5v Supply to the 5v on the LED's and the VSYS of the Pico W 2
 
             ---------- +5v LEDS
+
 5v + -------
+
             ---------- +5v PICO W2 VSYS
 
 
-Ground wiring:
+**Ground wiring:**
+
+Wire the ground wire of the supply to the Ground on the LED's and the Ground on the Pico W 2
 
             ----------- Gnd LEDs			
 GND --------
             ----------- GND PICO W2
 
 
-LED Data channel wiring:
-			
+**LED Data channel wiring:**
+Wire the LED data to Pin 0 of the Pico W 2
+   
 PICO GPIO 0 ----------- Data LEDs
 
 
