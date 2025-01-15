@@ -1,4 +1,4 @@
-Pico 2 W Simple Web Controlled addressable LED Ring
+**Pico 2 W Simple Web Controlled addressable LED Ring**
 
 Upon seeing Sevro's Crystal Lamp on Printables.com I knew I had to have it and do something with it!
 
@@ -10,7 +10,7 @@ So first of all my thoughts were, I want colours and I want it to be accessible 
 I ordered some 60 LED per Meter ARGB WS2812B led's from Aliexpress (£6)
 Bought some transparent PETG from Amazon.
 
-Wiring:
+**Wiring:**
 
 Its very important that you have a supply that will happily run the 36 LED's and extremely important that you power the LED's off that supply.
 Also on the note of importance, Its probably not a good Idea to run the LED's on white at full brightness, this will use approx 2.16 A (36 LED's x 60 mA = 2.16A)
@@ -31,12 +31,12 @@ GND -------[
 PICO GPIO 0 ----------- Data LEDs
 
 
-Code:
+**Code:**
 
 Update the main.py with your wifi details, and start it up. Also, depending on your country you might want to update the NTP address.
 When connected an IP will be listed in the shell for you to use a web browser to interact with the Crystal Lamp.
 
-Functions:
+**Functions:**
 
 Off = turn the LED's off
 Red = Red Crystals
