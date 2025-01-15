@@ -33,8 +33,10 @@ Wire the 5v Supply to the 5v on the LED's and the VSYS of the Pico W 2
 
 Wire the ground wire of the supply to the Ground on the LED's and the Ground on the Pico W 2
 
-            ----------- Gnd LEDs			
+            ----------- Gnd LEDs
+            
 GND --------
+
             ----------- GND PICO W2
 
 
