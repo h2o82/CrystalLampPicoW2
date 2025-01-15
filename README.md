@@ -13,11 +13,14 @@ Bought some transparent PETG from Amazon.
 ## **Wiring:**
 
 Its very important that you have a supply that will happily run the 36 LED's and extremely important that you power the LED's off that supply.
+
 Also on the note of importance, Its probably not a good Idea to run the LED's on white at full brightness, this will use approx 2.16 A (36 LED's x 60 mA = 2.16A)
 Unless ofcourse you have a decent supply!
-And lastly regardless of Power supply DO NOT power the LED's off your Pico, it most likely wont last long!
 
-My wiring is as follows:
+And lastly regardless of Power supply** DO NOT power the LED's off your Pico**, it most likely wont last long!
+
+
+**My wiring is as follows:**
 
 **+5v wiring:**
 Wire the 5v Supply to the 5v on the LED's and the VSYS of the Pico W 2
