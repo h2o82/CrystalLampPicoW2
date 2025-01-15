@@ -54,14 +54,25 @@ When connected an IP will be listed in the shell for you to use a web browser to
 ## **Functions:**
 
 Off = turn the LED's off
+
 Red = Red Crystals
+
 Green = Green Crystals
+
 Blue = Blue Crystals
+
 Chase= Red and Green LED's chasing eachother!
+
 Purple/Green = like Ying & Yang, they go up and down, meeting eachother at the top and bottom.
+
 Sync NTP = Syncs the time to the Pico for the clock function
+
 Clock = Shows the Time as synced above, Hour = red, Minute = Green, second = Blue - It seems a bit iffy but still works ok! (note the second hand may pause slightly, it is cramming 60 seconds into 36 led's)
+
 Heartbeat = Beats red like a heart beat (double bump)
+
 rainbow = this one can be quite iffy, the rainbow slowly rotates around the Lamp. Sometimes this can flicker, may be due to a previous function not clearing properly - may look at it later!
+
 Stars = randomly light an LED with a random colours
+
 Matrix = basically a rain simulation where the "code" runs down the sides of the lamp.
